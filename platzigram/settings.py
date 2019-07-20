@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'platzigram.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'platzi',
+        'NAME': 'platzi2',
         'USER': 'freddier',
         'PASSWORD': 'cvander<3',
-        'HOST': 'localhost',
+        'HOST': '217.0.0.1',
         'PORT': '5432',
     }
 }
