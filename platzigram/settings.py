@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'platzigram.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv('PLATZI_DB_NAME'),
         'USER': os.getenv('PLATZI_DB_USER'),
         'PASSWORD': os.getenv('PLATZI_DB_PASSWORD'),
